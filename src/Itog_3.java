@@ -9,9 +9,9 @@ public class Itog_3 {
         Scanner in= new Scanner(System.in);
         // вводим данные**********************************
         System.out.println("Нынешний курс: " );
-        double course = in.nextInt();
+        double course = in.nextDouble();
         System.out.println( "Кол-во рублей на конвертацию: " );
-        double rur = in.nextInt();
+        double rur = in.nextDouble();
         System.out.println("Нынешний курс: " + course + "\n" + "Кол-во рублей на конвертацию: " + rur);
         //*****************
         System.out.println("Конвертация из рубли в доллары равна " + (course*rur) );
